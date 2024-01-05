@@ -1,0 +1,42 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage{amsmath, amssymb, float, amsfonts,enumerate,graphicx}
+% install this fullpage package - gives a 1 inch margin to the whole document
+% \usepackage{fullpage}
+% does not add 1 inch margin all through. gives more control
+\usepackage[margin=1in]{geometry}
+
+\parindent 0px
+
+\begin{document}
+\textbf{Critical Thinking Questions}
+
+% This is how to insert a figure in your document
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.15\textwidth]{poster!.jpg}\\
+    \caption{The Squeeze Theorem}
+\end{figure}
+
+\begin{enumerate}
+    \item This is the symbol for the set of all real numbers: $\mathbb{R}$.
+    \item This is the symbol for the set of integers: $\mathbb{Z}$.
+    \item This is the symbol for the set of rational numbers: $\mathbb{Q}$.
+    \item Is it possible for a sequence to converge to two differnet numbers? If so, give an example, if not, explain why not.
+    \item Explain why $\int\limits_{1}^{\infty}f(x)\,dx$ and $\sum\limits_{n=1}^{\infty} a_n$ need not converge to the same value, even if they are both convergent.
+    \item In your own words, explain the Alternating Series Remainder Theorem. How is this theorem useful?
+    \item Explain the difference between absolute and conditional convergence. Give and example of each.
+    \item The ratio test is inconclusive if $\displaystyle{\lim\limits_{n \to \infty}\left|\frac{a_{n+1}}{a_n}\right| = 1}$. Give an example of one convergent series and one divergent series for which $\displaystyle{\lim\limits_{n \to \infty}\left|\frac{a_{n+1}}{a_n}\right| = 1}$. Explain how you determined your examples.
+\end{enumerate}
+
+\begin{enumerate}
+    \item $\lim\limits_{n \to \infty}$
+    \item $\sum\limits_{n=1}^{\infty}$
+    \item $\int\limits_{6}^{10}$
+\end{enumerate}
+
+%do not use math mode in align. It is automatically in math mode.
+\begin{align}
+    x^2+2x+c
+\end{align}
+
+\end{document}

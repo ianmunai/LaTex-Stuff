@@ -1,0 +1,85 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,float, amssymb,amsfonts,enumerate}
+\parindent 0px
+
+\begin{document}
+Equation Arrays: \\
+
+\begin{align}
+    5x^2-9    & =x+3 \\
+    5x^2-x-12 & = 0
+\end{align}
+
+Enumerated Lists: \\
+\begin{enumerate}
+    \item pencil
+    \item calculator
+    \item ruler
+    \item notebook
+          \begin{enumerate}
+              \item Notes
+              \item homework
+              \item assesments
+                    \begin{enumerate}
+                        \item tests
+                        \item quizzes
+                        \item journal entries
+                    \end{enumerate}
+          \end{enumerate}
+    \item higlighters
+\end{enumerate}
+
+\vspace{1cm}
+
+\begin{enumerate}[A.]
+    \item pencil
+    \item calculator
+    \item ruler
+    \item notebook
+\end{enumerate}
+\vspace{1cm}
+
+\begin{enumerate}\setcounter{enumi}{5}
+    \item pencil
+    \item calculator
+    \item ruler
+    \item notebook
+\end{enumerate}
+
+\pagebreak
+
+\begin{itemize}
+    \item pencil
+    \item calculator
+    \item ruler
+    \item notebook
+          \begin{itemize}
+              \item Notes
+              \item homework
+              \item assesments
+                    \begin{itemize}
+                        \item tests
+                        \item quizzes
+                        \item journal entries
+                    \end{itemize}
+          \end{itemize}
+    \item higlighters
+\end{itemize}
+\vspace{1cm}
+
+\begin{enumerate}
+    \item[] pencil
+    \item[] calculator
+    \item[] ruler
+    \item[] notebook
+\end{enumerate}
+
+% \begin{itemize}
+%     \item pencil
+%     \item calculator
+%     \item ruler
+%     \item notebook
+% \end{itemize}
+
+
+\end{document}
